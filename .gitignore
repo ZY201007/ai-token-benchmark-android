@@ -1,0 +1,37 @@
+# Gradle
+.gradle/
+build/
+/app/build/
+gradle-app.setting
+.gradletasknamecache
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+/local.properties
+/captures/
+.externalNativeBuild/
+.cxx/
+.navigation/
+assetWizardSettings.xml
+
+# 本地 keystore 与密钥（切勿提交）
+*.jks
+*.keystore
+keystore.properties
+.env
+
+# 构建产物
+*.apk
+*.aab
+*.dex
+*.class
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log

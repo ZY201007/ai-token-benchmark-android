@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AI Token 用量测评工具</string>
+    <string name="title_settings">接口与价格设置</string>
+    <string name="title_history">历史结果与对比</string>
+
+    <string name="hint_work_content">请输入一段工作内容（中文），例如：整理本周项目周报并提炼三项风险…</string>
+    <string name="label_task_count">任务组数（1–20，一次批量测评）</string>
+    <string name="btn_start">开始批量测评</string>
+    <string name="btn_settings">设置</string>
+    <string name="btn_history">历史与对比</string>
+    <string name="label_progress">进度</string>
+    <string name="label_live_results">实时结果</string>
+    <string name="label_mode">当前模式</string>
+    <string name="mode_mock">Mock 演示模式（不联网）</string>
+    <string name="mode_real">真实 API 模式</string>
+    <string name="label_hint_note">提示：所有测评结果仅保存在本机 SQLite，不会上传。</string>
+    <string name="label_calibration_title">中文 Token 校准报告</string>
+    <string name="label_select_models">选择本次参与测评的模型（勾选会同步到设置页）</string>
+    <string name="label_ready">就绪：输入工作内容后点击「开始批量测评」</string>
+    <string name="hint_no_results">尚无测评结果。输入工作内容并开始测评后，这里会逐条显示各模型的输入/输出 token、耗时与成本。</string>
+
+    <string name="btn_save">保存</string>
+    <string name="btn_export_csv">导出 CSV</string>
+    <string name="btn_export_detail">导出明细</string>
+    <string name="btn_export_summary">导出对比</string>
+    <string name="btn_clear">清空数据</string>
+    <string name="btn_compare">按模型对比</string>
+    <string name="btn_back">返回</string>
+    <string name="label_empty">暂无数据，请先到主界面完成一次测评。</string>
+    <string name="label_compare_title">模型对比汇总</string>
+    <string name="label_history_title">测评明细（最近 200 条）</string>
+
+    <string name="price_note">示例单价，需按官网更新（单位：元 / 百万 token）</string>
+    <string name="label_mock_mode">Mock 演示模式（不联网，使用校准估算）</string>
+    <string name="label_prompt_template">统一 prompt 模板（{content} 为占位符）</string>
+    <string name="label_base_url">Base URL</string>
+    <string name="label_api_key">API Key</string>
+    <string name="label_model_name">模型名</string>
+    <string name="label_price_in">输入单价</string>
+    <string name="label_price_out">输出单价</string>
+    <string name="label_enabled">启用该模型</string>
+</resources>
